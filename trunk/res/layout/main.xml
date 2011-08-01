@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="wrap_content">
+	<com.ebomike.ebovibrationmaster.ui.VibrationPatternTable
+		android:id="@+id/vibration_table"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent" 
+		>
+	</com.ebomike.ebovibrationmaster.ui.VibrationPatternTable>
+</ScrollView>
+<LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0">
+    <Button android:id="@+id/test_vibration" android:layout_height="wrap_content" android:text="@string/test_vibration" android:layout_width="wrap_content"
+    android:onClick="testVibration"
+    ></Button>
+    </LinearLayout>
+</LinearLayout>
