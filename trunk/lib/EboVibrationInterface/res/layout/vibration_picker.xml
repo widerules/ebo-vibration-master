@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <com.ebomike.ebovibrationmaster.VibrationRadioGroup android:id="@+id/vibrationRadioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    </com.ebomike.ebovibrationmaster.VibrationRadioGroup>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:text="Button" android:id="@+id/okay" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+        <Button android:text="Button" android:id="@+id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    
+</LinearLayout>

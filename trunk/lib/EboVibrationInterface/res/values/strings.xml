@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">EboVibrationInterface</string>
+    <string name="short_vibration">Short</string>
+    <string name="long_vibration">Long</string>
+    <string name="double_pulse_vibration">Double Pulse</string>
+</resources>
