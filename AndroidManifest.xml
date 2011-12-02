@@ -10,8 +10,20 @@
         <activity android:name=".EboVibrationMasterActivity"
                   android:label="@string/app_name">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <data android:mimeType="com.ebomike.ebovibrationmaster/vibrations"></data>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.ebomike.ebovibrationmaster" android:name="EboVibrationContentProvider"></provider>
+        <activity android:name="EboVibrationListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
             </intent-filter>
         </activity>
 
