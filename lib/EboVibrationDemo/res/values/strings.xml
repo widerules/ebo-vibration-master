@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EboVibrationDemoActivity!</string>
+    <string name="app_name">EboVibrationDemo</string>
+    <string name="trigger_vibration_picker">Trigger Vibration Picker</string>
+    <string name="selected_pattern">Selected Pattern:</string>
+    <string name="trigger_vibration">Trigger Vibration</string>
+    <string name="install_ebovibrationmaster">Install EboVibrationMaster to create your own patterns</string>
+</resources>
