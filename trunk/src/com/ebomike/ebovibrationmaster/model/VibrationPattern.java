@@ -11,7 +11,7 @@ public class VibrationPattern {
 	private long[] pattern = new long[] { 100 };
 	
 	// User-defined name for this pattern
-	private String name;
+	public String name;
 	
 	
 	
@@ -22,6 +22,10 @@ public class VibrationPattern {
 	 */
 	public long[] getPattern() {
 		return pattern;
+	}
+
+	public void setPattern(long[] pattern) {
+		this.pattern = pattern;
 	}
 	
 	public void addValue(long value) {
@@ -44,5 +48,10 @@ public class VibrationPattern {
 		System.arraycopy(pattern, index + 1, newPattern, index, oldLen - 1 - index);
 		
 		pattern = newPattern;
+	}
+	
+	@Override
+	public String toString() {
+		return name;
 	}
 }
