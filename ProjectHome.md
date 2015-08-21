@@ -1,0 +1,1 @@
+A tool, mostly aimed at developers, to create and test vibration patterns to use in apps and games. There are also public intents and content providers to allow other apps an easy way to give users a way to define and create notification patterns.
